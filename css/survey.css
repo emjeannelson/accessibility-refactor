@@ -1,0 +1,117 @@
+/***************
+Survey Page Styles
+****************/
+
+.photo {
+  width: 60%;
+  padding: 10px;
+}
+
+/***************
+Layout
+****************/
+
+form {
+  margin: 0 auto;
+  text-align: left;
+  display: inline-block;
+  padding: 1.5em;
+}
+
+.container {
+  text-align: center;
+}
+
+.newsletter {
+  text-align: right;
+
+}
+
+.survey-heading,
+.newsletter-heading {
+  text-transform: uppercase;
+  font-size: 2.2em;
+}
+
+/***************
+Form Styles
+****************/
+
+legend {
+  font-weight: 600;
+  text-align: left;
+}
+
+input:focus,
+textarea:focus {
+  background: #e4cfd3;
+}
+
+label {
+  display: block;
+  margin-top: 1em;
+}
+
+form p {
+  margin-bottom: 0;
+}
+
+input[type="radio"] + label {
+  display: inline-block;
+}
+
+.user-info label {
+  text-align: left;
+  display: inline-block;
+  width: 100%;
+}
+
+.user-info input {
+  display: block;
+  width: 100%;
+  padding: .5em;
+}
+
+.user-info p {
+  text-align: center;
+}
+
+button {
+  display: block;
+  padding: .5em;
+  font-size: 1em;
+  margin: 1em auto 0 auto;
+  border-radius: .5em;
+  background: #214A3c;
+  color: white;
+}
+
+.describedby-text {
+  display: none;
+}
+
+/***************
+Styles for Larger Screens
+****************/
+
+@media screen and (min-width: 840px) {
+  .photo {
+    width: 40%;
+    margin: 0 auto;
+  }
+
+  form {
+    width: 60%;
+  }
+
+  .user-info label {
+    width: 45%;
+    display: inline-block;
+    text-align: left;
+  }
+
+  .user-info input {
+    width: 50%;
+    display: inline-block;
+  }
+}
