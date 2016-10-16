@@ -43,7 +43,8 @@ legend {
 }
 
 input:focus,
-textarea:focus {
+textarea:focus,
+select:focus {
   background: #e4cfd3;
 }
 
