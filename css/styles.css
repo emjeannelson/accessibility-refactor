@@ -72,6 +72,7 @@ Section Styles
 .nav a {
   transition: all .5s;
   color: #ccc;
+  text-decoration: none;
 }
 
 .nav a:hover {
