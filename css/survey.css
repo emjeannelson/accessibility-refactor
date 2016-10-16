@@ -97,11 +97,6 @@ Styles for Larger Screens
 @media screen and (min-width: 840px) {
   .photo {
     width: 40%;
-    margin: 0 auto;
-  }
-
-  form {
-    width: 60%;
   }
 
   .user-info label {

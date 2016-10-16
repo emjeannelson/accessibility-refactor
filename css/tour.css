@@ -45,13 +45,6 @@ td {
 
 /* make the heading & table on tour page display in two columns */
 
-  .flex {
-    display: -ms-flexbox;      /* TWEENER - IE 10 */
-    display: flex;
-    max-width: 1200px;
-    -ms-flex-pack: distribute;
-  }
-
   .pick {
     height: auto;
   }

@@ -190,6 +190,13 @@ Styles for Larger Screens
 
 @media screen and (min-width: 600px) {
 
+  .flex {
+    display: -ms-flexbox;      /* TWEENER - IE 10 */
+    display: flex;
+    max-width: 1200px;
+    -ms-flex-pack: distribute;
+  }
+  
   .banner-name {
     font-size: 3.8em;
     margin-bottom: 0;
